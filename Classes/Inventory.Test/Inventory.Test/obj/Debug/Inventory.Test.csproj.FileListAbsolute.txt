@@ -1,0 +1,7 @@
+c:\users\noe\documents\visual studio 2012\Projects\Inventory.Test\Inventory.Test\bin\Debug\Inventory.Test.dll
+c:\users\noe\documents\visual studio 2012\Projects\Inventory.Test\Inventory.Test\bin\Debug\Inventory.Test.pdb
+c:\users\noe\documents\visual studio 2012\Projects\Inventory.Test\Inventory.Test\obj\Debug\Inventory.Test.csprojResolveAssemblyReference.cache
+c:\users\noe\documents\visual studio 2012\Projects\Inventory.Test\Inventory.Test\obj\Debug\Inventory.Test.dll
+c:\users\noe\documents\visual studio 2012\Projects\Inventory.Test\Inventory.Test\obj\Debug\Inventory.Test.pdb
+C:\Users\Noe\documents\visual studio 2012\Projects\Inventory.Test\Inventory.Test\bin\Debug\Monads.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\Inventory.Test\Inventory.Test\bin\Debug\Monads.xml
