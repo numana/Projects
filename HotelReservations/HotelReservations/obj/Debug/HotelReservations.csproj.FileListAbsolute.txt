@@ -1,0 +1,7 @@
+c:\users\noe\documents\visual studio 2012\Projects\HotelReservations\HotelReservations\bin\Debug\HotelReservations.dll
+c:\users\noe\documents\visual studio 2012\Projects\HotelReservations\HotelReservations\bin\Debug\HotelReservations.pdb
+c:\users\noe\documents\visual studio 2012\Projects\HotelReservations\HotelReservations\obj\Debug\HotelReservations.dll
+c:\users\noe\documents\visual studio 2012\Projects\HotelReservations\HotelReservations\obj\Debug\HotelReservations.pdb
+c:\users\noe\documents\visual studio 2012\Projects\HotelReservations\HotelReservations\bin\Debug\Monads.dll
+c:\users\noe\documents\visual studio 2012\Projects\HotelReservations\HotelReservations\bin\Debug\Monads.xml
+c:\users\noe\documents\visual studio 2012\Projects\HotelReservations\HotelReservations\obj\Debug\HotelReservations.csprojResolveAssemblyReference.cache
