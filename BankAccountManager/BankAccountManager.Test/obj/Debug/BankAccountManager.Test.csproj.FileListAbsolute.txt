@@ -1,0 +1,10 @@
+c:\users\noe\documents\visual studio 2012\Projects\BankAccountManager\BankAccountManager\bin\Debug\BankAccountManager.dll
+c:\users\noe\documents\visual studio 2012\Projects\BankAccountManager\BankAccountManager\bin\Debug\BankAccountManager.pdb
+c:\users\noe\documents\visual studio 2012\Projects\BankAccountManager\BankAccountManager\obj\Debug\BankAccountManager.Test.csprojResolveAssemblyReference.cache
+c:\users\noe\documents\visual studio 2012\Projects\BankAccountManager\BankAccountManager\obj\Debug\BankAccountManager.dll
+c:\users\noe\documents\visual studio 2012\Projects\BankAccountManager\BankAccountManager\obj\Debug\BankAccountManager.pdb
+C:\Users\Noe\Documents\Visual Studio 2012\Projects\BankAccountManager\BankAccountManager.Test\bin\Debug\BankAccountManager.dll
+C:\Users\Noe\Documents\Visual Studio 2012\Projects\BankAccountManager\BankAccountManager.Test\bin\Debug\BankAccountManager.pdb
+C:\Users\Noe\Documents\Visual Studio 2012\Projects\BankAccountManager\BankAccountManager.Test\obj\Debug\BankAccountManager.Test.csprojResolveAssemblyReference.cache
+C:\Users\Noe\Documents\Visual Studio 2012\Projects\BankAccountManager\BankAccountManager.Test\obj\Debug\BankAccountManager.dll
+C:\Users\Noe\Documents\Visual Studio 2012\Projects\BankAccountManager\BankAccountManager.Test\obj\Debug\BankAccountManager.pdb
