@@ -8,3 +8,5 @@ C:\Users\Noe\Documents\Visual Studio 2012\Projects\BankAccountManager\BankAccoun
 C:\Users\Noe\Documents\Visual Studio 2012\Projects\BankAccountManager\BankAccountManager.Test\obj\Debug\BankAccountManager.Test.csprojResolveAssemblyReference.cache
 C:\Users\Noe\Documents\Visual Studio 2012\Projects\BankAccountManager\BankAccountManager.Test\obj\Debug\BankAccountManager.dll
 C:\Users\Noe\Documents\Visual Studio 2012\Projects\BankAccountManager\BankAccountManager.Test\obj\Debug\BankAccountManager.pdb
+C:\Users\Noe\documents\visual studio 2012\Projects\BankAccountManager\BankAccountManager.Test\bin\Debug\BankAccountManager.Data.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\BankAccountManager\BankAccountManager.Test\bin\Debug\BankAccountManager.Data.pdb

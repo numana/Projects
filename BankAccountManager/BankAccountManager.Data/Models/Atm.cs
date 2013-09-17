@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace BankAccountManagerTest {
+namespace BankAccountManager.Data.Models {
 
   public class Atm {
 

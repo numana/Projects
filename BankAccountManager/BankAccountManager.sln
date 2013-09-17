@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountManager.Test", "BankAccountManager.Test\BankAccountManager.Test.csproj", "{CE0DA018-C020-45B7-B7D9-2C2011AD43B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountManager.Data", "BankAccountManager.Data\BankAccountManager.Data.csproj", "{18EB02F2-2CDF-42BB-88EE-94F6FC2F1527}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{CE0DA018-C020-45B7-B7D9-2C2011AD43B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE0DA018-C020-45B7-B7D9-2C2011AD43B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE0DA018-C020-45B7-B7D9-2C2011AD43B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18EB02F2-2CDF-42BB-88EE-94F6FC2F1527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EB02F2-2CDF-42BB-88EE-94F6FC2F1527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EB02F2-2CDF-42BB-88EE-94F6FC2F1527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EB02F2-2CDF-42BB-88EE-94F6FC2F1527}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

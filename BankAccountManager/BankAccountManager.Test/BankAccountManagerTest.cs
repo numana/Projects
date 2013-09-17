@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using BankAccountManager.Data.Models;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BankAccountManagerTest {
 

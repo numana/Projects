@@ -1,15 +1,15 @@
-﻿namespace BankAccountManagerTest {
+﻿namespace BankAccountManager.Data.Models {
 
   public abstract class Account {
 
     public int Number { get; set; }
     public decimal Balance { get; set; }
 
-    internal void Deposit(decimal credit) {
+    public void Deposit(decimal credit) {
       Balance += credit;
     }
 
-    internal void Withdrawal(decimal debit) {
+    public void Withdrawal(decimal debit) {
       if (debit<=Balance)
         Balance -= debit;
     }
