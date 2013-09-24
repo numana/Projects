@@ -42,9 +42,9 @@
     <Compile Include="Models\BlackJack.cs" />
     <Compile Include="Models\BlackJackHand.cs" />
     <Compile Include="Models\Card.cs" />
-    <Compile Include="Models\Hand.cs" />
+    <Compile Include="Models\HandBase.cs" />
     <Compile Include="Interfaces\IPlayer.cs" />
-    <Compile Include="Interfaces\CardGameBase.cs" />
+    <Compile Include="Models\CardGameBase.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Rank.cs" />
     <Compile Include="Models\Suit.cs" />

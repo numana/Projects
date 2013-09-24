@@ -4,7 +4,7 @@ namespace CardGame.Data.Interfaces {
 
   public interface IPlayer {
     User User { get; set; }
-    Hand Hand { get; set; }
+    HandBase HandBase { get; set; }
   }
 
 }

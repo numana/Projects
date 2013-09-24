@@ -2,7 +2,7 @@
 
 namespace CardGame.Data.Models {
 
-  public class BlackJackHand : Hand {
+  public class BlackJackHandBase : HandBase {
 
     public override int Value {
       get {
