@@ -1,0 +1,5 @@
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\CardGame.Data\obj\Debug\CardGame.Data.csprojResolveAssemblyReference.cache
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\CardGame.Data\bin\Debug\CardGame.Data.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\CardGame.Data\bin\Debug\CardGame.Data.pdb
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\CardGame.Data\obj\Debug\CardGame.Data.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\CardGame.Data\obj\Debug\CardGame.Data.pdb

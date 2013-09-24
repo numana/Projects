@@ -1,0 +1,7 @@
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\CardGame\bin\Debug\CardGame.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\CardGame\bin\Debug\CardGame.pdb
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\CardGame\obj\Debug\CardGame.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\CardGame\obj\Debug\CardGame.pdb
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\CardGame\obj\Debug\CardGame.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\CardGame\bin\Debug\CardGame.Data.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\CardGame\bin\Debug\CardGame.Data.pdb
