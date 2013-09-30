@@ -4,11 +4,12 @@
 //making all derived classes substitutable (LISKOV SUBSTITUTION PRINCIPLE)
 
 using System.Collections.Generic;
+using CardGame.Data.Interfaces;
 
 namespace CardGame.Data.Models { 
   
   public abstract class HandBase {
-    public List<Card> Cards { get; set; }
+    public List<ICard> Cards = new List<ICard>();
     public abstract int Value { get; }
   }
 

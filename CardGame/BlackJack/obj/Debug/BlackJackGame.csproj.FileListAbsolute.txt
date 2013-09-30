@@ -1,0 +1,7 @@
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack\bin\Debug\BlackJack.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack\bin\Debug\CardGame.Data.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack\bin\Debug\CardGame.Data.pdb
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack\obj\Debug\BlackJackGame.csprojResolveAssemblyReference.cache
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack\obj\Debug\BlackJack.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack\obj\Debug\BlackJack.pdb

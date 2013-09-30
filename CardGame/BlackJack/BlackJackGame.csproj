@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{92C72494-085A-444C-BD9B-6FCE51E38F27}</ProjectGuid>
+    <ProjectGuid>{490BE4C6-6910-49C4-8B74-D8AB0B72FEA3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CardGame.Data</RootNamespace>
-    <AssemblyName>CardGame.Data</AssemblyName>
+    <RootNamespace>BlackJackGame</RootNamespace>
+    <AssemblyName>BlackJack</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,16 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\ICard.cs" />
-    <Compile Include="Models\HandBase.cs" />
-    <Compile Include="Interfaces\IPlayer.cs" />
-    <Compile Include="Interfaces\CardGameBase.cs" />
-    <Compile Include="Models\Rank.cs" />
-    <Compile Include="Models\Suit.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\BlackJack.cs" />
+    <Compile Include="Models\Card.cs" />
+    <Compile Include="Models\BlackJackHand.cs" />
+    <Compile Include="Models\Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CardGame.Data\CardGame.Data.csproj">
+      <Project>{92C72494-085A-444C-BD9B-6FCE51E38F27}</Project>
+      <Name>CardGame.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
