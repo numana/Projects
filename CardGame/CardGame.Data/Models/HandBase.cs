@@ -9,7 +9,7 @@ using CardGame.Data.Interfaces;
 namespace CardGame.Data.Models { 
   
   public abstract class HandBase {
-    public List<ICard> Cards = new List<ICard>();
+    public List<CardBase> Cards = new List<CardBase>();
     public abstract int Value { get; }
   }
 

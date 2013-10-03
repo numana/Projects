@@ -4,7 +4,7 @@ using CardGame.Data.Interfaces;
 using CardGame.Data.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace BlackJack.Tests {
+namespace BlackJackGame.Tests {
 
   [TestClass]
   public class WhenAHandHas {
@@ -13,51 +13,51 @@ namespace BlackJack.Tests {
 
     [TestInitialize]
     public void InitTests() {
-      BlackJackHandBase.Cards = new List<ICard> {
-        new Card {Rank = Rank.Eight, Suit = Suit.Clubs},
-        new Card {Rank = Rank.Four, Suit = Suit.Diamonds}
+      BlackJackHandBase.Cards = new List<CardBase> {
+        new CardBase {Rank = Rank.Eight, Suit = Suit.Clubs},
+        new CardBase {Rank = Rank.Four, Suit = Suit.Diamonds}
       };
     }
 
     [TestMethod]
     public void NoAcesValueIsCorrect() {
       Assert.AreEqual(12, BlackJackHandBase.Value);
-      BlackJackHandBase.Cards.Add(new Card { Rank = Rank.Seven });
+      BlackJackHandBase.Cards.Add(new CardBase { Rank = Rank.Seven });
       Assert.AreEqual(19, BlackJackHandBase.Value);
-      BlackJackHandBase.Cards.Add(new Card { Rank = Rank.Four });
+      BlackJackHandBase.Cards.Add(new CardBase { Rank = Rank.Four });
       Assert.AreEqual(23, BlackJackHandBase.Value);
     }
 
     [TestMethod]
     public void OneAceValueIsCorrect() {
       Assert.AreEqual(12, BlackJackHandBase.Value);
-      BlackJackHandBase.Cards.Add(new Card { Rank = Rank.Ace });
+      BlackJackHandBase.Cards.Add(new CardBase { Rank = Rank.Ace });
       Assert.AreEqual(13, BlackJackHandBase.Value);
-      BlackJackHandBase.Cards.Add(new Card { Rank = Rank.Eight });
+      BlackJackHandBase.Cards.Add(new CardBase { Rank = Rank.Eight });
       Assert.AreEqual(21, BlackJackHandBase.Value);
     }
 
     [TestMethod]
     public void TwoAcesValueIsCorrect() {
       Assert.AreEqual(12, BlackJackHandBase.Value);
-      BlackJackHandBase.Cards.Add(new Card { Rank = Rank.Ace });
+      BlackJackHandBase.Cards.Add(new CardBase { Rank = Rank.Ace });
       Assert.AreEqual(13, BlackJackHandBase.Value);
-      BlackJackHandBase.Cards.Add(new Card { Rank = Rank.Ace });
+      BlackJackHandBase.Cards.Add(new CardBase { Rank = Rank.Ace });
       Assert.AreEqual(14, BlackJackHandBase.Value);
-      BlackJackHandBase.Cards.Add(new Card { Rank = Rank.Queen });
+      BlackJackHandBase.Cards.Add(new CardBase { Rank = Rank.Queen });
       Assert.AreEqual(24, BlackJackHandBase.Value);
     }
 
     [TestMethod]
     public void ThreeAcesValueIsCorrect() {
       Assert.AreEqual(12, BlackJackHandBase.Value);
-      BlackJackHandBase.Cards.Add(new Card { Rank = Rank.Ace });
+      BlackJackHandBase.Cards.Add(new CardBase { Rank = Rank.Ace });
       Assert.AreEqual(13, BlackJackHandBase.Value);
-      BlackJackHandBase.Cards.Add(new Card { Rank = Rank.Ace });
+      BlackJackHandBase.Cards.Add(new CardBase { Rank = Rank.Ace });
       Assert.AreEqual(14, BlackJackHandBase.Value);
-      BlackJackHandBase.Cards.Add(new Card { Rank = Rank.Ace });
+      BlackJackHandBase.Cards.Add(new CardBase { Rank = Rank.Ace });
       Assert.AreEqual(15, BlackJackHandBase.Value);
-      BlackJackHandBase.Cards.Add(new Card { Rank = Rank.Eight });
+      BlackJackHandBase.Cards.Add(new CardBase { Rank = Rank.Eight });
       Assert.AreEqual(23, BlackJackHandBase.Value);
     }
 

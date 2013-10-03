@@ -1,0 +1,9 @@
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack.Tests\bin\Debug\BlackJack.Tests.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack.Tests\bin\Debug\BlackJack.Tests.pdb
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack.Tests\bin\Debug\BlackJack.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack.Tests\bin\Debug\CardGame.Data.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack.Tests\bin\Debug\BlackJack.pdb
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack.Tests\bin\Debug\CardGame.Data.pdb
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack.Tests\obj\Debug\BlackJack.Tests.dll
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack.Tests\obj\Debug\BlackJack.Tests.pdb
+C:\Users\Noe\documents\visual studio 2012\Projects\CardGame\BlackJack.Tests\obj\Debug\BlackJackGame.Tests.csprojResolveAssemblyReference.cache

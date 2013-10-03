@@ -5,20 +5,20 @@ using CardGame.Data.Interfaces;
 using CardGame.Data.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace BlackJack.Tests {
+namespace BlackJackGame.Tests {
 
   [TestClass]
   public class WhenStartingBlackJack {
 
-    public BlackJackGame.Models.BlackJack BlackJack { get; set; }
+    public BlackJack BlackJack { get; set; }
 
     [TestInitialize]
     public void MyMethod() {
       var players = new List<IPlayer>();
-      //var cards = new Stack<ICard>();
 
       for (int i = 0; i < 5; i++) players.Add(new Player { User = new User { UserName = String.Format("Player {0}", i) } });
-      BlackJack = new BlackJackGame.Models.BlackJack(players);
+      BlackJack = new BlackJack(players);
+      BlackJack.SetUpCards();
     }
 
     [TestMethod]

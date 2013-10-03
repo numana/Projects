@@ -8,13 +8,10 @@ namespace BlackJackGame.Models {
 
     public BlackJack(List<IPlayer> players) : base(players) { }
 
-    public override void SetUpCards() {
-      //TODO Use Cards initialization in CardGameBase. How to instantiate new Card into cards?
-      for (var j = Suit.Clubs; j <= Suit.Spades; j++)
-        for (var i = Rank.Ace; i <= Rank.King; i++)
-          Cards.Push(new Card { Rank = i, Suit = j, IsFaceUp = false });
+    public override CardBase CardFactory(Rank rank, Suit suit) {
+      return new Card {Rank = rank, Suit = suit, IsFaceUp = false};
     }
-
+    
     public override void DealCards() {
       Players.ForEach(p => {
         p.Hand.Cards.Add(Cards.Pop());

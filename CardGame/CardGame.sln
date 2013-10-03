@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Data", "CardGame.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJackGame", "BlackJack\BlackJackGame.csproj", "{490BE4C6-6910-49C4-8B74-D8AB0B72FEA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.Tests", "BlackJack.Tests\BlackJack.Tests.csproj", "{56864947-CF09-40D3-92E9-AB8875C8E815}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJackGame.Tests", "BlackJack.Tests\BlackJackGame.Tests.csproj", "{56864947-CF09-40D3-92E9-AB8875C8E815}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

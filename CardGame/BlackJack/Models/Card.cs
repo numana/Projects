@@ -3,10 +3,8 @@ using CardGame.Data.Models;
 
 namespace BlackJackGame.Models {
 
-  public class Card : ICard {
+  public class Card : CardBase {
     public bool IsFaceUp = false;
-    public Suit Suit { get; set; }
-    public Rank Rank { get; set; }
   }
 
 }

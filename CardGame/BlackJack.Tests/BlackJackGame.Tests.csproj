@@ -6,7 +6,7 @@
     <ProjectGuid>{56864947-CF09-40D3-92E9-AB8875C8E815}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BlackJack.Tests</RootNamespace>
+    <RootNamespace>BlackJackGame.Tests</RootNamespace>
     <AssemblyName>BlackJack.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

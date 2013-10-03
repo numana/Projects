@@ -10,28 +10,28 @@ namespace CardGame.Data.Interfaces {
   public abstract class CardGameBase {
 
     public List<IPlayer> Players { get; set; }
-    public Stack<ICard> Cards = new Stack<ICard>();
-
-    //private class Card : ICard {
-    //  public Suit Suit { get; set; }
-    //  public Rank Rank { get; set; }
-    //}
+    public Stack<CardBase> Cards = new Stack<CardBase>();
 
     protected CardGameBase(List<IPlayer> players) {
       Players = players;
-      SetUpCards();
     }
 
+//Used by child classes, may be overriden for custom card decks
     public virtual void SetUpCards() {
-      //for (var j = Suit.Clubs; j <= Suit.Spades; j++)
-      //  for (var i = Rank.Ace; i <= Rank.King; i++)
-      //    Cards.Push(new Card { Rank = i, Suit = j });
+      for (var j = Suit.Clubs; j <= Suit.Spades; j++)
+        for (var i = Rank.Ace; i <= Rank.King; i++)
+          Cards.Push(CardFactory(i, j));
     }
 
-    public virtual void Setup() {
-      ShuffleCards();
-      DealCards();
+//El Cheapo Card Factory!! Overriden by child classes to generate custom cards
+    public virtual CardBase CardFactory(Rank rank, Suit suit) {
+      return new CardBase {Rank = rank, Suit = suit};
     }
+
+    //public virtual void Setup() {
+    //  ShuffleCards();
+    //  DealCards();
+    //}
 
     public virtual void DealCards() {
       //TODO Implement in derived classes
